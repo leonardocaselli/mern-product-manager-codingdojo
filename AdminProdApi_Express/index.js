@@ -6,7 +6,7 @@ const routes = require('./routes')
 
 const app = express()
 const port = 8002
-const mongoURL = 'mongodb+srv://leocaselli:Domitila123.@cluster0.bvpuq.mongodb.net/fullStackMern?retryWrites=true&w=majority'
+const mongoURL = 'mongodb+srv://leocaselli:perritolindopasword@cluster0.bvpuq.mongodb.net/fullStackMern?retryWrites=true&w=majority'
 
 //conecta a la base datos 
 mongoose.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true })
